@@ -5,10 +5,10 @@ import aiogram
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 
-bot = Bot(token='6111266051:AAGb86onJ5-gZb3Nl3szouf7OvaCkjV7SFc')
+bot = Bot(token='TGBOTTOKEN')
 dispatcher = Dispatcher(bot)
 
-openai.api_key = "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"
+openai.api_key = "OPENAIAPITOKEN"
 
 data_dir = "./data"
 
